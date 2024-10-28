@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="y!M1w(o7)D*@Z);!D*3R" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="[M+VuFv[UVn8K;gFP/zf"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="music_playable_play" id="/`G+W?0Xv(vL,!j=4dJp"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="cm[:f-nFY!ql@Pp2mx]k"><value name="note"><shadow type="device_note" id="7by{aDee=^1@:Fjq8um|"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="l!J`$-1Z3J}u9ss%pw*/"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type="servoservosetangle" id="]GgD9/p9#|F)MM!y=Ci}"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="g3v;;/zk9p#^u(1dJjV|"><field name="angle">90</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="+}U*?m!4%q8[u,1V=YG_" x="-6" y="427"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="y2zcG{,BqV[h#LwKZmd_"><next><block type="device_show_leds" id="dEL:g#)a`+*DiX%Y,18m"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="servoservosetangle" id="|LS!=7bOerVSwQ$.ETNj"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="}GWzwD]gAm/9D:kqYN#c"><field name="angle">10</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="ta|Qgr2T7LK3qTA4J8p9" x="401" y="430"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="f=rTG.dV.]Pp*tSaZl?S"><next><block type="device_show_leds" id="4+;1%.l#l@;qR,(F106e"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="servoservosetangle" id="L8QvJWHg|*#hKIyQ[i_i"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="(HyI`C7~RPTUUasxAQ`}"><field name="angle">90</field></shadow></value></block></next></block></next></block></statement></block></xml>
